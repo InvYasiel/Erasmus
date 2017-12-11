@@ -1,0 +1,56 @@
+#titulo{
+    
+    font-family: Verdana;
+    font-family: 'PT Sans';
+}
+#Lb{
+    margin: 15px;
+    font-size: 20px;
+    padding: 15px;
+}
+#CicloPais{
+    margin: 15px;
+   color: white;
+}
+#BuscarMaps{
+    margin: 15px;
+    cursor: pointer;
+}
+#Cargar{
+    cursor: pointer;
+    
+}
+
+#contenedor{
+    margin:auto;
+    width:60%;
+}
+#maps{
+    margin: 15px;
+    
+}
+#tipo{
+    margin: 15px;
+}
+body{
+    background-image: url(../img/fondo.jpg)
+}
+h1{
+text-align: center;
+border-radius: 5px;
+background-image: url(../img/color.jpg)
+}
+label{
+    color: white;
+    margin-left: 5px;
+}
+.ciclos{
+    margin-left: 20px;
+
+}
+@media screen and (max-width: 800px) {
+    #contenedor{
+        margin:auto;
+        width:100%;
+    }
+}
